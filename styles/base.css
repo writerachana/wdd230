@@ -12,12 +12,17 @@ header{
     height: 180px;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    align-content: center;
+    justify-items: stretch;
 
     }
 header img{
-    width: 125px;
+    width: 150px;
     margin-left: 0.5em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
     
 }
 nav a:hover{
@@ -25,14 +30,25 @@ nav a:hover{
 }
 
 nav{
- margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  margin-left: 180%;
-  margin-bottom: 100%;
-  color: black;
+    display: flex;
+    text-align: center;
+    margin-left: 200%;
+    /* margin-bottom: 100%; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: space-around;
+   
 
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 
@@ -45,17 +61,26 @@ body {
     font-size: 18px;
     color: black;
     border: 1px black;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
-    max-width: 650px;
+    max-width: 800px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 15px;
     height: 100%;
+    margin-left: 20%;
 
 }
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align:left;
+    margin-bottom: 20px;
+}
 h1{
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 5px;
 }
 .text-header{
@@ -70,6 +95,8 @@ h1{
 li::marker{
         color: #279AF1;
     }
+
+
 footer{
     padding: 10px;
     text-align: center;
