@@ -4,16 +4,16 @@ header{
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
-    background-color:#279AF1 ;
+    background-color:rgba(6, 49, 87, 0.699);
     border: 1px black;
-    margin-right: 400px;
+    margin: 0 auto;
     padding: 1rex;
     width: 100%;
     height: 270px;
     border-radius: 40px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     text-align: center;
-    margin-bottom: 20px;
+  
     align-content: center;
     justify-items: stretch;
 
@@ -77,11 +77,10 @@ body {
     margin: 0 ;
     padding: 0;
     max-width: 800px;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 0 auto;
     border-radius: 15px;
     height: 100%;
-    margin-left: 20%;
+  
 
 }
 
@@ -123,6 +122,6 @@ footer{
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 20px;
-    background-color:#279AF1 ;
+    background-color:rgba(6, 49, 87, 0.699);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
