@@ -60,19 +60,4 @@ body {
     margin-left: auto;
   }
 
-  /*Larg view */
-  @media only screen and (min-width: 1050px) {
-    main {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
   
-    .section3{
-      grid-column: 3/4;
-  }
-
-  .section3 img{
-      width: auto;
-  }
-
-}
