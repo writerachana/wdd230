@@ -5,7 +5,7 @@ body {
   
   header,
   footer {
-    background-color: #837a75;
+    background-color: rgba(6, 49, 87, 0.699);
     color: #fff;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -33,7 +33,7 @@ body {
   
   main section h2 {
     color: #fff;
-    background-color: #293b11de;
+    background-color: rgba(6, 49, 87, 0.699);
     border-bottom: 2px solid rgb(0, 0, 0);
     padding: 1rem;
     margin: 0rem;
@@ -44,9 +44,9 @@ body {
   
   main section {
     margin: 0.5rem;
-    border: 1px solid #dafeb7;
+    border: 1px solid #b7c4fe;
     padding: 0 1rem;
-    background-color: #f2fbe0;
+    background-color: #e0edfb;
     border-radius: 10px;
   }
   
