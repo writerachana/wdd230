@@ -13,29 +13,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-
-   <script src="scripts/getdates.js" defer></script>
-
-   <title>Rachana Kumbhakar - WDD 230 - Web Frontend Development</title>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburgermenu.js" defer></script>
+    <title>Rachana Kumbhakar - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" type="image/x-icon" href="images/mypic.ico">
 </head>
 <body>
     <header>
-        
+        <section id="name">
         <img src="images/mypic.jpg" alt="my_pic">
         <h1>Rachana Kumbhakar</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="chamber/siteplan.html">Site Plan</a>
-            <a href="chamber/">Chamber</a>
-            <a href="https://www.byui.edu/">BYU-Idaho</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures"> Scripture</a>
-        </nav>
+        </section>
     </header>
+        <nav >
+            <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+            <ul id="nav-menu">
+           <li> <a href="index.html">Home</a></li>
+           <li><a href="chamber/siteplan.html">Site Plan</a></li>
+           <li> <a href="chamber/">Chamber</a></li>
+           <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+           <li><a href="https://www.churchofjesuschrist.org/study/scriptures"> Scripture</a></li>
+        </ul>
+        </nav>
     <main>
-        <h2 class="before-list">WDD 230: Web Frontend Development</h2><hr>
-        <section class="card">
+        <h2 class="before-list">WDD 230: Web Frontend Development</h2>
+        <section class="card" >
             <h3>Learning Activities</h3><hr>
-        
         <ul class="list-container">
             <li>Lesson1: <a href="lesson01/hollygrial.html" target="_blank">Hollygrial</a> </li>
             <li>Lesson2:  <a href="lesson02/design.html" target="_blank">Design</a> | <a href="lesson02/design-principles.html" target="_blank">Design Principles Document</a> </li> 
@@ -47,33 +50,28 @@
             <li>Lesson8: </li>
             <li>Lesson9: </li>
             <li>Lesson10: </li>
-           
         </ul><hr>
     </section>
     <section class="info">
         <h3>Information</h3><hr>
         <ol class="InformationMessage">
             <li>
-                <p>Rexburg, Idaho</p>
+            <p>Rexburg, Idaho</p>
             </li>
             <li>
-                <p>Weather <span id="temp"></span>🌞</p>
+            <p>Weather <span id="temp"></span>🌞</p>
             </li>
             <li>
-                <p>Number of visits to the page: 15</p>
+            <p>Number of visits to the page: 15</p>
             </li>
-
         </ol>
-      
     </section>
-   
-
+    <iframe id="googlemap"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.272237765513!2d88.38186047362097!3d22.53147253447956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02774709d169d5%3A0x7b2e14a7541ccc84!2sSunny%20Park!5e0!3m2!1sen!2sus!4v1695933653133!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p>&copy;<span id='currentyear'></span></p>
         <p>Rachana Kumbhakar</p>
         <p>Last Modified: <span id='lastmodified'></span></p>
     </footer>
-    
 </body>
 </html>
