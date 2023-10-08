@@ -39,6 +39,11 @@ footer{
     text-align: center;
     padding: 1rem;
 }
+#footer-logo{
+    margin-right: 40%;
+ }
+
+
 /** Menu styles **/
 
 nav ul{
@@ -90,7 +95,4 @@ nav ul li a:hover{
 }
 #home-main h2{
     text-align: center;
-}
-#footer-logo{
-   margin-right: 40%;
 }
