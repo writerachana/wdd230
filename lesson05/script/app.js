@@ -37,9 +37,10 @@ function addButton(){
 function init(){
     addButton();
 }
-
 // Registers the argument of the content
 window.addEventListener('DOMContentLoaded', init);
+
+
 //Last modified
 let today1 = new Date();
 document.querySelector("#currentyear").textContent=today1.getFullYear()
