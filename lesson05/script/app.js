@@ -1,47 +1,75 @@
 // Decalres function
-function addButton(){
-	function addChapter(){
+//function addButton(){
+//	function addChapter(){
         // Declares variables with object element. 
-		let list = document.querySelector('.list'); 
-		let input = document.querySelector('#favchap');
-		let item = document.createElement('li'); 
-		let button = document.createElement('button'); 
+//		const list = document.querySelector('.list'); 
+//		const input = document.querySelector('#favchap');
+//		const button = document.createElement('button'); 
+//		const item = document.createElement('li');
 		
 		// Creates a list when user input something to li
-		item.innerText = input.value; 
+//		item.innerText = input.value; 
 		
 		// Creates an X button for deletion
-		button.innerText = '❌'; 
+//		button.innerText = '❌'; 
 		
 		// Deletes an element from the parent list
-		button.addEventListener('click', x => {button.parentElement.remove()});
+//		button.addEventListener('click', x => {button.parentElement.remove()});
 		
 		// Adds what the user input to the list
-		item.appendChild(button); 
+//		item.appendChild(button); 
 		
 		// Adds what the user input to the list with an X button
-		list.appendChild(item); 
+//		list.appendChild(item); 
 		
 		// Makes sure the input is empty 
-		input.value = ''; 
+//		input.value = ''; 
 	
 		// Sets the element as the active element in the current document
-		input.focus(); 
-	}
+//		input.focus(); 
+//	}
 	
 	// Retuns the element within the document for button and links with a click
-	document.querySelector('button').addEventListener('click',addChapter)
-}
+//	document.querySelector('button').addEventListener('click',addChapter)
+//}
 
 // Initiates the function addButton();
-function init(){
-    addButton();
-}
+//function init(){
+    //addButton();
+//}
 // Registers the argument of the content
-window.addEventListener('DOMContentLoaded', init);
+//window.addEventListener('DOMContentLoaded', init);
 
 
 //Last modified
 let today1 = new Date();
 document.querySelector("#currentyear").textContent=today1.getFullYear()
 document.querySelector("#lastmodified").textContent=document.lastModified
+
+
+
+const list = document.querySelector('.list'); 
+const input = document.querySelector('#favchap');
+const button = document.createElement('button');
+
+button.addEventListener('click', ()=>{
+
+	if (input.value ==''){
+		input.focus()
+		return
+	}
+	let listitem = document.createElement('li');
+	let deletebutton = document.createElement("button");
+	listitem.textContent = input.value
+	deletebutton.textContent = '❌'
+	listitem.appendChild(deletebutton)
+	list.appendChild(listitem)
+	deletebutton.addEventListener('click', ()=>{
+		listitem.remove()
+	})
+	input.focus()
+	input.value = ''
+
+
+	
+} )
