@@ -7,7 +7,7 @@
 
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: wheat;
+    background-color:whitesmoke;
     color: var(--text-color);
     max-width: 1200px;
     margin: 0 auto;
@@ -24,7 +24,8 @@ header, footer, main, nav{
 /** Header styles **/
 
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     position: relative;
     align-items: center;
 }
@@ -90,7 +91,11 @@ nav ul li a:hover{
 /* main styles */
 #hero img{
     width: 100%;
+    border: 10px solid #d9c2a3;
+    object-fit: cover;
+
 }
+
 
 #hero h2{
     padding: 1rem;
@@ -115,7 +120,7 @@ nav ul li a:hover{
 /** Hamburger Menu Stuff **/
 
 .menu-hide, .menu-show{
-    display: none;
+    display:none;
     background-color: lightblue;
     border: 1px solid grey;
     margin: .5rem 0 0 .5rem;
