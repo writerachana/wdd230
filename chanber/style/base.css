@@ -4,12 +4,14 @@
     --hover-background-color: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
     --hover-color: black;  
 }
-
+* {
+    box-sizing: border-box;
+}
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:#fefae0;
     color: var(--text-color);
-    max-width: 1200px;
+    
     margin: 0 auto;
 }
 button{
@@ -57,35 +59,61 @@ footer{
 
 /** Menu styles **/
 
-nav ul{
-    list-style: none;
-    padding-inline-start: 0px;
+nav{
     display: flex;
-    flex-direction: row;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-}
-
-nav ul li{
-    flex: 1;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    background-color: var(--hover-background-color);
-    color: var(--hover-color);
-}
-
-nav ul li a{
-    display: block;    
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: var(--text-color);
-    padding: 1rem;
     text-align: center;
+    flex-direction: column;
+    /* margin-bottom: 100%; */
+    grid-column: 1/3;
+    grid-row: 2/3;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+nav a {
+    text-decoration: none;
+     /* Adjust the letter-spacing to control the space between characters */
+    color:var(--text-color);
+    display: block;
+    padding: 50px;
+    
+  }
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    box-shadow: 3px 3px rgb(0, 0, 53);
+    display: flex;
+    flex-direction: column;
+}
+nav a:hover {
+	border: 1px solid whitesmoke;
     
 }
 
+nav ul li{
+    list-style-type: none;
+    display: block;
+    width: 100%;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: rgba(6, 49, 87, 0.699);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
 nav ul li a:hover{
-    background-color: var(--background-color);
+    background-color: whitesmoke;
+}
+
+#main-nav{
+    gap: 10px;
 }
 
 /* main styles */
@@ -120,22 +148,28 @@ nav ul li a:hover{
 /** Hamburger Menu Stuff **/
 
 .menu-hide, .menu-show{
-    display:none;
+    display: none;
     background-color: lightblue;
     border: 1px solid grey;
-    margin: .5rem 0 0 .5rem;
+    margin: .5rem 0;
 }
 
 .menu-hide.showing, .menu-show.showing{
     display: block;
 }
 
-#nav-menu{
+#main-nav{
     display: none;
-    width: 100%;
+   
 }
 
-#nav-menu.showing{
+#main-nav.showing{
     display: flex;
 }
 
+#dark-mode{
+    justify-self: end;
+    align-self: start;
+    margin-top: 10px;
+    margin-right: 10px;
+}

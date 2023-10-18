@@ -1,6 +1,6 @@
 /* Larger Views ******************************/
 @media (min-width: 640px) {
-	#nav-menu {
+	#main-nav {
 		display: flex;
         justify-content: space-evenly;
 		flex-direction: row;

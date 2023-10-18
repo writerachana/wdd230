@@ -32,7 +32,7 @@ nav a:hover{
     color: #fff;
 }
 
-nav{
+#main-nav{
     display: flex;
     text-align: center;
    flex-direction: column;
@@ -44,11 +44,13 @@ nav{
     align-items: stretch;
     justify-content: space-around;
     text-decoration: none;
+    background-color: rgba(6, 49, 87, 0.699);
+    margin-top: 10px;
 }
 nav a {
     text-decoration: none;
      /* Adjust the letter-spacing to control the space between characters */
-    color:whitesmoke;
+    color:black;
     display: block;
     padding: 20px;
   }
@@ -60,7 +62,8 @@ nav ul {
     flex-direction: column;
 }
 nav a:hover {
-	border: 1px solid black;
+	border: 1px solid whitesmoke;
+    color: beige;
 }
 
 nav ul li{
@@ -176,19 +179,18 @@ footer{
     display: none;
     background-color: lightblue;
     border: 1px solid grey;
-    margin: .5rem 0 0 .5rem;
+    margin: .5rem 0;
 }
 
 .menu-hide.showing, .menu-show.showing{
     display: block;
 }
 
-#nav-menu{
+#main-nav{
     display: none;
-    width: 100%;
 }
 
-#nav-menu.showing{
+#main-nav.showing{
     display: flex;
 }
 

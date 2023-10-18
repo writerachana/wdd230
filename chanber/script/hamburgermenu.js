@@ -1,6 +1,6 @@
 const hidebutton = document.querySelector(".menu-hide");
 const showbutton = document.querySelector(".menu-show");
-const navmenu = document.querySelector("#nav-menu"); 
+const navmenu = document.querySelector("#main-nav"); 
 
 hidebutton.addEventListener('click',() => {
     hidebutton.classList.toggle('showing');
