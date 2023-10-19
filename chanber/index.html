@@ -19,6 +19,8 @@
     <script src="script/getdates.js" defer></script>
     <script src="script/darkmode.js" defer></script>
     <script src="script/hamburgermenu.js" defer></script>
+    <script src="script/slideshow.js" defer></script>
+
 
 
 </head>
@@ -39,63 +41,97 @@
             <a href="join.html">Join</a>
         </ul>
     </nav>
-   
-    
-    <main id="home-main">
-        <section id="hero" class="home-section">
-            <h2>India</h2>
-            <img src="image/hero.jpg" alt="hero placeholder">
-            <button>Call to Action</button>
-        </section>
-        <section id="current-events" class="home-section">
-            <h2>Current Events</h2>
-            <img src="image/currentevent.jpg" alt="events placeholder">
-            <p>Government of India plans to replace the Special Economic Zone (SEZ) Act, 2006 with a new legislation entitled Development of Enterprises and Services Hub (DESH) Bill, 2002. With global disruptions like Covid 19, US-China trade war, Russia-Ukraine war , ‘near shoring and reshoring of companies’ there was a need for relook. The DESH Bill is conceived to provide a relatively better business framework than that of SEZ Act as it allows domestic tariff area (DTA) sales but subject to duty equalisation levy in order to ensure parity with the DTA units. It seems to be a good move as it aims to bring scale, scope, system and synergy to India’s manufacturing operations. However the DESH Bill needs to synchronise with the PLI and ODOP, the flagship schemes of Atmanirbhar Bharat. What more needs to be done ? Please share your opinion with us.</p>
-        </section>
-        <section id="weather" class="home-section">
-            <h2>Weather</h2>
-            <img src="image/Wather.jpg" alt="weather placeholder">
-            <p>Current weather in India, with temperatures in 387 cities, including high and low temperatures for the country.</p>
-        </section>
-        <div id="spotlights" class="home-section">
-            <section id="spotlight-1" class="spotlight-card">
-                <h3>Spotlight 1</h3>
-                <img src="image/Spotlight1.jpg" alt="spotlight 1 placeholder">
-                <p>LData governance is defined as the overall management of the availability, usability, integrity, and security of data used in an enterprise. A structured data governance program includes a managing body, a defined set of procedures, and a plan to execute these procedures. Today almost all organizations have migrated their data assets to the cloud..</p>
-            </section>
-            <section id="spotlight-2" class="spotlight-card">
-                <h3>Spotlight 2</h3>
-                <img src="image/Spotlight2.jpg" alt="spotlight 2 placeholder">
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="image/hero.jpg" style="width:100%">
+        <div class="text">India</div>
+      </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="image/Res.jpeg" style="width:100%">
+      <div class="text">welcome to Kolkata</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="image/res2.jpeg" style="width:100%">
+      <div class="text">More to see</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="image/res4.jpeg" style="width:100%">
+      <div class="text">Indiak</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <section class="hero-msg">
+    <h1 class="home-title">Have An Adventure</h1>
+    <h4>Make Memories with Us </h4>
+    <div class='button-box'>
+        <a class='book' href="rates.html">Book Now</a>
+    </div>
+</section>
+<main>
+    <div id="home-main">
+           <img id="first_img" src="image/Spotlight1.jpg" alt="spotlight 1 placeholder">
+           <h1>Here is SOMETHING GREAT.</h1>
+           <p> LData governance is defined as the overall management of the availability, usability, integrity, and security of data used in an enterprise. A structured data governance program includes a managing body, a defined set of procedures, and a plan to execute these procedures. Today almost all organizations have migrated their data assets to the cloud..</p>
+           <a class='join' href="rivers.html">More Info</a>
+           </div>
+           <div class ="second">
+               <section class = "second">
+               <img class ="second_img" src="image/Spotlight2.jpg" alt="spotlight 2 placeholder">
+               <h2>It is delicious to be natural. A store specializing in press 
+                <br>sandwiches that Charcutier thinks about.</h2>
+               <p>· A framework that enables people to define, agree to and enforce data policies
+                · Effective processes for control and management over all data assets in the cloud and in legacy systems.</p>
+                <a class='join1' href="rivers.html">More Info</a>
+           </section>
+           <section  class="third">
+               <img class ="third_img" src="image/Spotlight3.jpg" alt="spotlight 3 placeholder">
+               <h2>Nothing, but Everything.
+                <br> There is nothing here except everything you need</h2>
                 <p>· A framework that enables people to define, agree to and enforce data policies
                     · Effective processes for control and management over all data assets in the cloud and in legacy systems.</p>
-            </section>
-            <section id="spotlight-3" class="spotlight-card">
-                <h3>Spotlight 3</h3>
-                <img src="image/Spotlight3.jpg" alt="spotlight 3 placeholder">
-                <p>The optimum tools and technologies for operationalizing data policy compliance
-                    The benefits of Data Governance are many:
-                    .Improved decision making
-                    · Better risk management
-                    · Regulatory compliance.</p>
-            </section>
-        </div>
-    </main>
+                 <a class='join2' href="rivers.html">More Info</a>
+           </section>   
+           </div>
+        </main>
+   
     <footer>
         <hr>
         <div class="footer-logo">
             <p><img src="image/indian_chamber_of_commerce.jpg" alt="ICC Logo" height="160" width="160"></p>
         </div>
         <div class="footer-contact">
-            <p>The India chamber of commars</p>
-            <p>Head Office</p>
-                <p>Indian Chamber of Commerce</p>
-                <p> 4, India Exchange Place,</p>
-                <p>Kolkata-700001</p>
-                <p>Phone : +91-33-22303242-44</p>
-                <p> Fax : +91-33-22313377 / 3380</p>
+            <p>The India chamber of commars
+            Head Office</p>
+                <p>Indian Chamber of Commerce
+                 4, India Exchange Place,
+                Kolkata-700001</p>
+                <p>Phone : +91-33-22303242-44
+                 Fax : +91-33-22313377 / 3380</p>
                 <p><a href="#">ceo@indianchamber.net</a></p>
         </div>
-        <hr>
         <div class="footer-base">
             <p>&copy;<span id="currentyear"></span>
                 <p> Rachana Kumb hakar Chamber Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
