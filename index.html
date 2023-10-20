@@ -21,12 +21,12 @@
 <body>
     <header>
         <section id="name">
-        <img src="images/mypic.jpg" alt="my_pic">
+        <img src="images/mypic.webp" alt="my_pic">
         <h1>Rachana Kumbhakar</h1>
         </section>
     </header>
     <nav>
-    <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
         <ul id="main-nav">
             <a href="index.html">Home</a>
             <a href="lesson03/chamber-site-plan.html">Site Plan</a>
@@ -38,7 +38,9 @@
     <main>
         <div class="hero">
                 <picture>
-                    <img  src="images/manila_philippines_temple_lds.webp" alt="Yigo Guam Temple - 2022">
+                    <source media="(max-width:400px)" srcset="./images/small.webp">
+                    <source media="(max-width:960px)" srcset="./images/medium.webp">
+                    <img  src="images/manila-philippines-temple-lds-993617-wallpaper.webp" alt="manila_philippines_temple">
                 </picture>
                 <div class="herolabel">
                     <p>manila_philippines_temple</p>
