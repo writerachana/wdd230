@@ -136,7 +136,7 @@ nav ul li a:hover{
 }
 
 /* main styles */
-#hero img{
+.hero picture img{
     width: 100%;
     border: 10px solid #d9c2a3;
     object-fit: cover;
@@ -281,12 +281,9 @@ nav ul li a:hover{
     font-size: 18px;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     padding: 15px 30px;
- 
     align-self: center;
     position:absolute;
-    
-    
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     
