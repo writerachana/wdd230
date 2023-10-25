@@ -142,6 +142,9 @@ nav ul li a:hover{
     object-fit: cover;
 
 }
+.hero{
+    position: relative;
+}
 .slideshow-container{
     position: relative;
 }
@@ -151,6 +154,18 @@ nav ul li a:hover{
     padding: 1rem;
     margin-block-end: 0px;
     margin-block-start: 0px;  
+}
+#current-events{
+    display: flex;
+}
+#current-events img{
+   width: 150px;
+   height: 100px;
+   object-fit: cover;
+}
+#home-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 #home-main section{
     text-align: center;
@@ -303,4 +318,53 @@ nav ul li a:hover{
     color: black;
 }
 
+
+#Weather {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: var(--containers-background);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+   
+    
+  }
+
+  .weatherTop {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+  }
+
+  .temp {
+    color: rgb(227, 57, 57);
+  
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .desc {
+    text-align: center;
+    color: rgb(192, 58, 58);
+    font-size: 1rem;
+  }
+  .weatherDesc {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    align-items: center;
+  }
+  .weatherDesc p {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .weatherIcons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .weatherIcons i {
+    color: var(--dark-blue);
+  }
 
