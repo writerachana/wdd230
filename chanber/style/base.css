@@ -1,6 +1,6 @@
 :root{
     --text-color: black;
-    --background-color: rgba(6, 49, 87, 0.699);
+    --background-color: rgb(213, 202, 222);
     --hover-background-color: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
     --hover-color: black;  
 }
@@ -9,7 +9,7 @@
 }
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #000;
     border: 1px black;
     max-width: 1000px;
@@ -22,12 +22,13 @@ button{
     background-color: var(--background-color);
 }
 
-header, footer, nav{
+header,nav{
     background-color: var(--background-color);
 }
 #spotlights{
     gap: 20px;       
     display: flex;
+    grid-column: 1/3;
   
 }
 /** Header styles **/
@@ -37,12 +38,12 @@ header, footer, nav{
     padding: 10px;
     gap: 20px;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--background-color);
 }
 #spotlight-1 img, #spotlight-2 img, #spotlight-3 img {
     
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 header{
@@ -157,6 +158,7 @@ nav ul li a:hover{
 }
 #current-events{
     display: flex;
+    background-color: whitesmoke;
 }
 #current-events img{
    width: 150px;
@@ -166,19 +168,21 @@ nav ul li a:hover{
 #home-main{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 #home-main section{
     text-align: center;
 }
 
-#home-main section p{
-    padding: 1rem;
-}
+
 #home-main h2{
     text-align: center;
 }
 .footer-contact p a{
     color: black;
+}
+.footer-base{
+    background-color:var(--background-color) ;
 }
 
 
@@ -219,7 +223,7 @@ nav ul li a:hover{
   }
   
   /* Hide the images by default */
-  .mySlides {
+  .hero{
     display: none;
   }
   
@@ -291,14 +295,15 @@ nav ul li a:hover{
     
    
     text-align: center;
-    color:black;
+    background-color: black;
+    color:rgb(206, 81, 64);
     text-decoration: none;
     font-size: 18px;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     padding: 15px 30px;
     align-self: center;
     position:absolute;
-    top: 60%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -320,16 +325,17 @@ nav ul li a:hover{
 
 
 #Weather {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    background-color: var(--containers-background);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color:whitesmoke;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
    
     
   }
 
   .weatherTop {
-    background-color: yellowgreen;
+    background-color: var(--background-color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -367,4 +373,5 @@ nav ul li a:hover{
   .weatherIcons i {
     color: var(--dark-blue);
   }
+
 
