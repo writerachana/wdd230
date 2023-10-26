@@ -121,7 +121,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     display: block;
-    background-color: rgba(6, 49, 87, 0.699);
+    background-color: var(--background-color);
     color: black;
     text-align: center;
     padding: 1rem;
