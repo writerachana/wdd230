@@ -143,12 +143,8 @@ nav ul li a:hover{
     object-fit: cover;
 
 }
-.hero{
-    position: relative;
-}
-.slideshow-container{
-    position: relative;
-}
+
+
 
 
 #hero h2{
@@ -303,8 +299,8 @@ nav ul li a:hover{
     padding: 15px 30px;
     align-self: center;
     position:absolute;
-    top: 95%;
-    left: 50%;
+    top: 90px;
+    left: 250px;
     transform: translate(-50%, -50%);
     
 }
