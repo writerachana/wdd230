@@ -1,0 +1,27 @@
+@media screen and (min-width: 640px){
+    #hero h2::before{
+        content: "Medium ";
+    }    
+
+    #nav-button{        
+        display: none;        
+    }   
+
+    #nav-menu{
+        display: flex;        
+        flex-direction: row;
+    }
+    #nav-menu.showing{
+        display: flex;
+    }
+
+    #discover-sidebar{
+        border-right: 5px solid var(--hover-background-color);
+        padding: 1rem;
+    }
+
+    #discover-main{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+}

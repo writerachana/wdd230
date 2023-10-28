@@ -371,3 +371,24 @@ nav ul li a:hover{
   }
 
 
+
+  /* Discover Page  */
+
+  #discover-main{
+    display: block;
+}
+
+#discover-images{
+    text-align: center;
+}
+
+#discover-images img{
+    border: 5px solid var(--hover-background-color);
+}
+
+#discover-demographics, #discover-message{
+    border: 1px solid black;    
+    padding: 1rem;
+    margin: 1rem 0;
+
+}
