@@ -384,6 +384,10 @@ nav ul li a:hover{
 
 #discover-images img{
     border: 5px solid var(--hover-background-color);
+    border: 10px solid var(--background-color);
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f3646;
+    object-fit: cover;
 }
 
 #discover-demographics, #discover-message{
@@ -391,4 +395,8 @@ nav ul li a:hover{
     padding: 1rem;
     margin: 1rem 0;
 
+}
+#discover-images img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
