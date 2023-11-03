@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="Rachana Kumbhakar WDD 230 - Web Frontend Development">
+    <meta name ="author" content="Rachana Kumbhakar">
+    <meta property="og:url" content="https://writerachana.github.io/wdd230/">
+    <meta property="og:type"  content="website" />
+    <meta property="og:title"  content="Rachana Kumbhakar - WDD 230 - Web Frontend Development" />
+    <meta property="og:description" content="WDD 230: Web Frontend Development" />
+    <meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburgermenu.js" defer></script>
+    <script src="scripts/stepsvisit.js" defer></script>
+    <script src="scripts/from.js" defer></script>
+
+    <title>Rachana Kumbhakar - WDD 230 - Web Frontend Development</title>
+    <link rel="icon" type="image/x-icon" href="images/mypic.ico">
+</head>
+<body>
+    <header>
+        <section id="name">
+        <img src="images/mypic.webp" alt="my_pic">
+        <h1>Rachana Kumbhakar</h1>
+        </section>
+    </header>
+    <nav>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul id="main-nav">
+            <a href="index.html">Home</a>
+            <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+            <a href="chanber/index.html">Chamber</a>
+            <a href="https://www.byui.edu/">BYU-Idaho</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures"> Scripture</a>
+        </ul>
+    </nav>
+    <main id = "form-main">
+        <form>
+            <fieldset>
+            <label>User Name: <input id = "username" name="username" type="text" required></label>
+            <label>Password: <input id = "password" name="password" type="password" required pattern="[\d|\w]{8,}"></label>
+            <label>Confirm: <input id = "confirm" name="confirm" type="password" required></label>
+            <label>E-mail: <input id = "email" name="email" type="email" required pattern="[\w\.]+@byui\.edu$" placeholder="E-mail Plz" title="Please enter a valid email address"></label>
+            <label>Page Rating: <span id= "currentrating">1</span> <input name="rating" type="range" min="1" max="10" step="1" value="1" list="slidervalues"></label>
+            <datalist id="slidervalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+
+            </datalist>
+            <button>Lets Go!!</button>
+        </fieldset>
+
+        </form>
+       
+    </main>
+    <footer>
+        <p>&copy;<span id='currentyear'></span></p>
+        <p>Rachana Kumbhakar</p>
+        <p>Last Modified: <span id='lastmodified'></span></p>
+    </footer>
+</body>
+</html>
