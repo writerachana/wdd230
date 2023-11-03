@@ -31,3 +31,6 @@ input:valid{
 input:invalid{
     box-shadow: 3px 3px 3px red;
 }
+main{
+    margin-left: 20%;
+}
