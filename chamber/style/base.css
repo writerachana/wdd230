@@ -139,7 +139,7 @@ nav ul li a:hover{
 /* main styles */
 .hero picture img{
     width: 100%;
-    border: 10px solid #d9c2a3;
+    /* border: 10px solid #d9c2a3; */
     object-fit: cover;
 
 }
