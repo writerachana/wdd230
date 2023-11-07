@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Indian chamber of commars</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - The Indian chamber of commars Project Home Page">
+    <meta name="author" content="Rachana Kumbhakar">
+    <meta property="og:url" content="https://github.com/writerachana/wdd230/blob/main/chanber/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDD 230 - The Indian chamber of commars">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development - The Indian chamber of commars Project Home Page">
+    <meta property="og:image" content="https://github.com/writerachana/wdd230/blob/main/chanber/image/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" type="image/x-icon" href="image/indian_chamber_of_commerce.ico">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/larger.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <script src="script/getdates.js" defer></script>
+    <script src="script/darkmode.js" defer></script>
+    <script src="script/hamburgermenu.js" defer></script>
+    <script src="script/slideshow.js" defer></script>
+    <script src="script/windchill.js" defer></script>
+    <script src="script/discover.js" defer></script>
+</head>
+<body>
+    <header>
+        <p><img src="image/logo.webp" alt="indian_chamber_of_commerce" height="50" width="50"></p>
+        <h1>The Indian chamber of commars</h1> 
+        <button id='dark-mode'>DARK</button>     
+        <!-- <button id="dark_mode">Dark 🌙</button> -->
+    </header>
+    <nav>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul id="main-nav">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="discover.html"> Discover</a></li>
+            <li> <a href="directory.html"> Directory</a></li>
+            <li><a href="join.html"> Join</a></li>
+        </ul>
+    </nav>
+    <main id="join-main">
+        <section class="join">
+            <div>
+                <form method="GET" action="thankyou.html">
+                    <label class="myinput">First Name*<input type="text" name="fname" required></label>
+                    <label class="myinput">Last Name*<input type="text" name="lname" required></label>
+                    <label class="myinput">Title<input type="text" name="title" pattern="[A-Za-z -]{7,}"></label>
+                    <label class="myinput">Email*<input type="email" name="email" required></label>
+                    <label class="myinput">Cell Phone*<input type="tel" name="cellphone" required></label>
+                    <label class="myinput">Business Name*<input type="text" name="bizname" required></label>
+                    <h3>Membership Level</h3>
+                    <label class="myradio"><input type="radio" name="level" value="nonprofit">Non-Profit</label>
+                    <label class="myradio"><input type="radio" name="level" value="bronze">Bronze</label>
+                    <label class="myradio"><input type="radio" name="level" value="silver">Silver</label>
+                    <label class="myradio"><input type="radio" name="level" value="gold">Gold</label>
+                    <label class="myinput">Organization Description<textarea name="description" cols="40"
+                            rows="5"></textarea></label>
+                    <label><input id="currentdate" type="hidden" name="currentdate" value=""></label>
+                    <input class="mysubmit" type="submit" value="Join the Chamber!">
+                </form>
+            </div>
+            <div>
+                <h2>Membership Levels Benefits</h2>
+                <h3>NP Membership</h3>
+                <ul>
+                    <li>For non profit organizations and there is no fee</li>
+                </ul>
+                <h3>Bronze Membership</h3>
+                <ul>
+                    <li>10% discount on events</li>
+                    <li>20% discount on advertising</li>
+                    <li>Fee of $60/month</li>
+                </ul>
+
+                <h3>Silver Membership</h3>
+                <ul>
+                    <li>20% discount on events</li>
+                    <li>25% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>Fee of $150/month</li>
+                </ul>
+
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>50% discount on events</li>
+                    <li>50% discount on advertising</li>
+                    <li>Free participation in the trade fair</li>
+                    <li>7 free featured ads per year</li>
+                    <li>Fee of $200/month</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer-logo">
+            <p><img src="image/indian_chamber_of_commerce.webp" alt="ICC Logo" height="73" width="200"></p>
+        </div>
+        <div class="footer-contact">
+            <p>The India chamber of Commars Head Office</p>
+                <p>Indian Chamber of Commerce
+                 4, India Exchange Place,
+                Kolkata-700001</p>
+                <p>Phone : +91-33-22303242-44
+                 Fax : +91-33-22313377 / 3380</p>
+                <p><a href="#">ceo@indianchamber.net</a></p>
+        </div>
+        <div class="footer-base">
+            <p>&copy;<span id="currentyear"></span>
+                <p> Rachana Kumbhakar Chamber Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
+        </div>        
+    </footer>
+</body>
+
+</html>

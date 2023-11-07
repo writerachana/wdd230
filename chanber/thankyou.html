@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Indian chamber of commars</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - The Indian chamber of commars Project Home Page">
+    <meta name="author" content="Rachana Kumbhakar">
+    <meta property="og:url" content="https://github.com/writerachana/wdd230/blob/main/chanber/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDD 230 - The Indian chamber of commars">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development - The Indian chamber of commars Project Home Page">
+    <meta property="og:image" content="https://github.com/writerachana/wdd230/blob/main/chanber/image/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" type="image/x-icon" href="image/indian_chamber_of_commerce.ico">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/larger.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <script src="script/getdates.js" defer></script>
+    <script src="script/darkmode.js" defer></script>
+    <script src="script/hamburgermenu.js" defer></script>
+    <script src="script/slideshow.js" defer></script>
+    <script src="script/windchill.js" defer></script>
+    <script src="script/discover.js" defer></script>
+</head>
+<body>
+    <header>
+        <p><img src="image/logo.webp" alt="indian_chamber_of_commerce" height="50" width="50"></p>
+        <h1>The Indian chamber of commars</h1> 
+        <button id='dark-mode'>DARK</button>     
+        <!-- <button id="dark_mode">Dark 🌙</button> -->
+    </header>
+    <nav>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul id="main-nav">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="discover.html"> Discover</a></li>
+            <li> <a href="directory.html"> Directory</a></li>
+            <li><a href="join.html"> Join</a></li>
+        </ul>
+    </nav>
+    <main id="thankyou-main">
+        <h2>Thank you for your form submission.</h2>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer-logo">
+            <p><img src="image/indian_chamber_of_commerce.webp" alt="ICC Logo" height="73" width="200"></p>
+        </div>
+        <div class="footer-contact">
+            <p>The India chamber of Commars Head Office</p>
+                <p>Indian Chamber of Commerce
+                 4, India Exchange Place,
+                Kolkata-700001</p>
+                <p>Phone : +91-33-22303242-44
+                 Fax : +91-33-22313377 / 3380</p>
+                <p><a href="#">ceo@indianchamber.net</a></p>
+        </div>
+        <div class="footer-base">
+            <p>&copy;<span id="currentyear"></span>
+                <p> Rachana Kumbhakar Chamber Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
+        </div>        
+    </footer>
+</body>
+
+</html>
