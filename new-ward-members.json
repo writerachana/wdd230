@@ -1,0 +1,54 @@
+{"movein":
+[
+    {
+    "name": "Rachana",
+    "moveInDate":"2021/08/01",
+    "familySize":4,
+    "visited":false,
+    "members":[
+        {
+            "name":"Rachana",
+            "gender":"F",
+            "birthdate":"1995/10/09"
+        },
+        {
+            "name":"Santana",
+            "gender":"F",
+            "birthdate":"1987/06/04"
+        },
+        {
+            "name":"Rinki",
+            "gender":"F",
+            "birthdate":"1993/01/26"
+        }
+
+
+    ]
+},
+{
+    "name": "Rachana",
+    "moveInDate":"2021/08/01",
+    "familySize":4,
+    "visited":false,
+    "members":[
+        {
+            "name":"Rachana",
+            "gender":"F",
+            "birthdate":"1995/10/09"
+        },
+        {
+            "name":"Santana",
+            "gender":"F",
+            "birthdate":"1987/06/04"
+        },
+        {
+            "name":"Rinki",
+            "gender":"F",
+            "birthdate":"1993/01/26"
+        }
+
+
+    ]
+}
+]
+}
