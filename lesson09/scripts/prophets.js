@@ -19,10 +19,11 @@ const cards = document.querySelector('#cards');
 function displayProphets(prophets){
     prophets.forEach((prophet) => {
         let section = document.createElement("section")
-        let sectionHTML =`<h2>${prophet.name} ${prophet. lastiane}<h2>
+        section.classList.add("card")
+        let sectionHTML =`<h2>${prophet.name} ${prophet.lastname}<h2>
         <p>Date of Birth: ${prophet.birthdate}</p>
         <p>Place of Birth: ${prophet.birthplace}</p>
-        <img src="${prophet.imageurl}" alt="Picture of ${prophet.name} ${prophet.lastName}">`
+        <img src="${prophet.imageurl}" alt="Picture of ${prophet.name} ${prophet.lastname}">`
         section.innerHTML =sectionHTML;
         cards.appendChild(section);
         
@@ -30,8 +31,8 @@ function displayProphets(prophets){
 };
 
 async function getProphetData(){
-    const response = await fatch(url);
-    if(response,ok){
+    const response = await fetch(url);
+    if(response.ok){
         const data = await response.json();
         displayProphets(data.prophets);
 
@@ -41,3 +42,5 @@ async function getProphetData(){
 
     }
 }
+
+getProphetData()
