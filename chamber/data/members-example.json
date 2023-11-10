@@ -1,0 +1,13 @@
+{
+    "members":[
+        {
+            "name": "Example Name",
+            "addrress" : "649 S 2nd West Rexburg, Idaho",
+            "Phone": "385-639-5726",
+            "websiteUrl" : "https://writerachana.github.io/wdd230/",
+            "imgUrl" : "https://writerachana.github.io/wdd230/images/mypic.webp",
+            "members": "gold"
+
+        }
+    ]
+}
