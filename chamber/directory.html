@@ -21,6 +21,7 @@
     <script src="script/hamburgermenu.js" defer></script>
     <script src="script/slideshow.js" defer></script>
     <script src="script/windchill.js" defer></script>
+    <script src="script/directory.js" defer></script>
     <script src="script/join.js" defer></script>
 </head>
 <body>
@@ -39,9 +40,13 @@
             <li><a href="join.html"> Join</a></li>
         </ul>
     </nav>
-    <main>
-        
-    </main>
+    <main class="directory-main">
+        <div id='directory-selector'>
+          <button id="directory-grid" class="active">GRID</button>
+          <button id="directory-list">LIST</button></div>
+        <div id='directory-data' class='directory-cards'>
+        </div>
+        </main>
 
 
     <footer>

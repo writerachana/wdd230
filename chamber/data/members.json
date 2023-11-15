@@ -1,0 +1,71 @@
+{
+    "members": [
+        {
+            "name": "Zomato ",
+            "phone": "+91 83 7509 7031",
+            "address": " Ray's IT Park EN 9 Sector 5 Kolkata 91, India ",
+            "websiteURL": "https://www.zomato.com/india",
+            "imageURL": "./image/zomato.webp",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "Swiggy",
+            "address": " Bengaluru 560047, Karnataka, India",
+            "phone": "+91 80-6746 6666",
+            "websiteURL": "https://www.swiggy.com/?utm_source=affiliate&utm_medium=optimisemedia_651080_129857X1602039Xd07dc654c042a77f12688fdb1496294e_&utm_campaign=perf_Food_NU_Webaffiliates_Saatchi_NUA_Interest_2023-03_timeslot_android",
+            "imageURL": "https://tse1.mm.bing.net/th?id=OIP.eunWl1mn5mCUvP8OZZSyHgHaG_&pid=Api",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Bharat Petroleum",
+            "address": " Mumbai, Maharashtra, 400001",
+            "phone": "022-22713874",
+            "websiteURL": "https://www.bharatpetroleum.in/",
+            "imageURL": "https://www.khabarindia.in/wp-content/uploads/2017/03/BPCL.gif",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Cognizant",
+            "address": "300 Frank W Burr Blvd United States,",
+            "phone": "876-929-4622",
+            "websiteURL": "https://www.cognizant.com/us/en",
+            "imageURL": "./image/cognizain.webp",
+            "membershipLevel": "Bronze"
+        },
+
+    {
+            "name": "Wipro ",
+            "address": " Bengaluru - 560 035, India",
+            "phone": " +91 (80) 46827999",
+            "websiteURL": "https://www.wipro.com/",
+            "imageURL": "./image/wipro.webp",
+            "membershipLevel": "NP Membership"
+        },
+        {
+            "name": "Tata Consultancy Services",
+            "address": "Mumbai, Maharashtra, India",
+            "phone": "+27-114591700",
+            "websiteURL": "https://www.tcs.com/",
+            "imageURL": "./image/tcs.webp",
+            "membershipLevel": "NP Membership"
+        },
+        {
+            "name": "MakeMyTrip",
+            "address": "Gurugram, Haryana",
+            "phone": " (0124) 4628747",
+            "websiteURL": "https://www.makemytrip.com/international-flights/?cmp=SEM|D|IF|B|Brand|IF_Brand_Exact-Ex_India|Brand_Exact_Ex_india|RSA|Regular|NewFunnel|&s_kwcid=AL!1631!3!!e!!o!!makemytrip&ef_id=:G:s",
+            "imageURL": "./image/mmt.webp",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Uber",
+            "address": "1515 3rd St, United States",
+            "phone": "800-952-4440",
+            "websiteURL": "https://www.uber.com/us/en/s/d/kochab/?ad_id=&adg_id=1211662316540068&campaign_id=427272530&cre=&dev=c&dev_m=&fi_id=&gclsrc=aw.ds&kw=uber&kwid=kwd-75729274461184%3Aloc-71206&match=e&msclkid=0a93301114381f2cb44b554542bf25f7&net=o&placement=&tar=&utm_campaign=CM2198659-search-bing-brand_1_-99_US-National_o-d_web_acq_cpc_en_Generic_Phrase_uber_kwd-75729274461184%3Aloc-71206__1211662316540068_e_c&utm_source=bing",
+            "imageURL": "./image/uber.webp",
+            "membershipLevel": "Gold"
+        }
+        
+
+    ]
+}
