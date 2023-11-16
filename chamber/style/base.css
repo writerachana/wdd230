@@ -16,7 +16,7 @@ body{
     border-radius: 15px;
     height: 100%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1500px;
 }
 button{
     color: var(--text-color);
@@ -396,7 +396,7 @@ nav ul li a:hover{
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f3646;
     object-fit: cover;
-    width: 100%;
+    width: 80%;
 }
 
 #discover-demographics, #discover-message{
