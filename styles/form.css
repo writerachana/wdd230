@@ -1,5 +1,9 @@
 :root{
     --failed: red;
+    --text-color: black;
+    --background-color: rgba(213, 202, 222, 0.721);
+   
+   
   
 
 }
@@ -26,12 +30,12 @@ label{
 button{
     font-size: 1.5rem;
     color: white;
-    background-color: red;
+    background-color: var(--failed);
     padding: .5rem;
     margin: 1rem 0;
 }
 input:valid{
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 3px 3px 3px var(--text-color);
 }
 input:invalid{
     box-shadow: 3px 3px 3px var(--failed);
