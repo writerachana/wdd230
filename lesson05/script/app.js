@@ -6,6 +6,10 @@ function addButton(){
 		const input = document.querySelector('#favchap');
 		const button = document.createElement('button'); 
 		const item = document.createElement('li');
+		if(input.value != ""){
+
+		
+
 		
 		// Creates a list when user input something to li
 		item.innerText = input.value; 
@@ -27,6 +31,11 @@ function addButton(){
 	
 		// Sets the element as the active element in the current document
 		input.focus(); 
+		}
+		else{
+			window.alert("Add BOM")
+			input.focus();
+		}
 	}
 	
 	// Retuns the element within the document for button and links with a click
