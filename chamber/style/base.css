@@ -499,7 +499,7 @@ label.myinput{
 }
 
 #directory-selector button.active{
-    background-color: var(--hover-background-color);
+    background-color: var(--text-color);
 }
 
 /* Cards view
@@ -584,8 +584,7 @@ label.myinput{
   padding: 1rem;
   margin: .5rem;
   border-radius: 5px;
- 
-  border: 1px black solid;
+ border: 1px black solid;
 }
 
 .directory-cards img {
@@ -608,21 +607,20 @@ label.myinput{
 .directory-cards section{
   text-align: center;    
   border: 2px solid grey; 
+  box-shadow: .5rem .5rem .5rem var(--background-color);
   width: 300px;
   padding: 1rem;
   margin: .5rem;
 }
 
-.directory-cards section{
-  box-shadow: .5rem .5rem .5rem var(--background-color);
-}
+
 
 
 
 
 .directory-cards .card-button{
   text-decoration: none;
-  color: black;
+  /* color: black; */
   background-color: var(--background-color);
   padding: .5rem;
   border-radius: 5px;
@@ -649,7 +647,7 @@ label.myinput{
 
 .directory-list .card-button{
   text-decoration: underline;
-  color: black;    
+  /* color: black;     */
   background-color: var(--background-color);
   padding: .5rem;
   border-radius: 5px;
