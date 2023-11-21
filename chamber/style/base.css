@@ -676,3 +676,27 @@ label.myinput{
   border-radius: 5px;
 }
 
+#banner-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffc107;
+  padding: 10px;
+  text-align: center;
+}
+
+#banner-content {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#close-banner {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
