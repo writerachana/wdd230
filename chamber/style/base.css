@@ -682,7 +682,8 @@ label.myinput{
   top: 140px;
   left: 0;
   width: 100%;
-  background-color: #ffc107;
+  background-color: var(--background-color);
+  color: var(--text-color);
   padding: 10px;
   text-align: center;
 }
