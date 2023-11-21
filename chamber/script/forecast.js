@@ -4,8 +4,7 @@
 const LAT = "22.5356606";
 const LON = "88.1825342";
 const APIKEY = "aa1c7343e4d0a433a1ecabbdda6699a1";
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=22.5356606&lon=88.1825342&appid=aa1c7343e4d0a433a1ecabbdda6699a1&units=imperial`;
-
+const apiURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`
 const ONE_DAY = 24 * 60 * 60 * 1000
 
 function showForecast(forecasts){
@@ -34,7 +33,7 @@ function showForecast(forecasts){
     console.log(lowTemps)
 
     // Add the forecast information to the HTML document
-    weatherElt = document.querySelector("body section")
+    weatherElt = document.querySelector("#forecast")
     for (let i=0; i < 3; i++){
         let newsection = document.createElement("section");
         newsection.innerHTML = `<h2>${dates[i]}</h2><p>High: ${highTemps[i].main.temp.toFixed(0)}&deg;</p><p>Low: ${lowTemps[i].main.temp.toFixed(0)}&deg;</p>`
@@ -45,9 +44,10 @@ function showForecast(forecasts){
 
 async function fetchForecast() {
     try {
-      const response = await fetch(weatherURL);
+      const response = await fetch(apiURL);
       if (response.ok) {
-        const data = await response.json();        
+        const data = await response.json(); 
+        console.log(data)       
         showForecast(data.list);
       } else {
         throw Error(await response.text());

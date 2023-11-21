@@ -336,11 +336,14 @@ nav ul li a:hover{
     grid-row: 1/2;
     background-color:whitesmoke;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
-
+    display: flex;
+    flex-direction: column;
    
     
   }
-
+  #forecast {
+    flex-grow: 1;
+  }
   .weatherTop {
     background-color: var(--background-color);
     display: flex;
@@ -348,6 +351,9 @@ nav ul li a:hover{
     justify-content: space-around;
     height: 100px;
     align-items: center;
+    padding: 10px;
+    padding: 0px 100px;
+  
   }
 
   .temp {
@@ -430,9 +436,12 @@ color: var(--text-color);
     width: 90%;
     min-width: 400px;
   }
-
+  .join h2 {
+    color: var(--text-color);
+  }
 label.myinput{
     display:block;
+    color: var(--text-color);
     padding-top: 1rem;
   }
   
@@ -457,7 +466,7 @@ label.myinput{
   
   .mysubmit{
     background-color: #338;
-    color: black;
+    color: white;
     margin: 1rem 0 0 0;
     padding: .5rem;
     font-size: 1.5rem;

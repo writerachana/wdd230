@@ -29,7 +29,7 @@ function getTime() {
   }
   
   function newSearch() {
-    let url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/guayaquil?unitGroup=us&key=EWQF52DJKF9B9NEMA45J3VZGW&contentType=json`;
+    let url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/india?unitGroup=us&key=EWQF52DJKF9B9NEMA45J3VZGW&contentType=json`;
     fetch(url).then(convertToJson).then(displayCurrentTemp);
   }
   
