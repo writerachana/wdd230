@@ -320,7 +320,7 @@ nav ul li a:hover{
     z-index: -1;
 }
 .book{
-    color: black;
+    color:var(--text-color);
     background-color: var(--background-color);
     padding: 10px;
     text-decoration:solid;
