@@ -679,7 +679,7 @@ label.myinput{
 #banner-container {
   display: none;
   position: fixed;
-  top: 0;
+  top: 140px;
   left: 0;
   width: 100%;
   background-color: #ffc107;
