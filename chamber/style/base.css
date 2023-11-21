@@ -502,12 +502,14 @@ label.myinput{
   /* Directory Page Stuff */
   .directory-main{
     width: 100%;
+    color: var(--text-color);
 }
 
 #directory-selector{
     width: 100%;
     text-align: center;
 }
+
 
 #directory-selector button{
     padding: 1rem;
@@ -577,7 +579,7 @@ label.myinput{
 
 .directory-list .card-button{
     text-decoration: underline;
-    color: black;    
+    color: var(--text-color);    
 }
 
 
@@ -639,7 +641,7 @@ label.myinput{
 
 .directory-cards .card-button{
   text-decoration: none;
-  /* color: black; */
+  color: var(--text-color);
   background-color: var(--background-color);
   padding: .5rem;
   border-radius: 5px;
