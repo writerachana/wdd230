@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bountiful Foods </title>
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Rachana Kumbhakar">
+    <meta property="og:url" content="https://github.com/writerachana/wdd230">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDD 230">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://github.com/writerachana/wdd230">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" type="image/x-icon" href="image/indian_chamber_of_commerce.ico">
+    <link rel ="stylesheet" href="style/base.css">
+    <link rel ="stylesheet" href="style/large.css">
+
+    <script src="script/hamburger.js" defer></script>
+    <script src="script/weather.js" defer></script>
+    <script src="script/forecast.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class="logo">
+        <p><img src="image/fruitlogo.webp" alt="fruit juce" height="70" width="100"></p>
+        <h1>Hawaiian Fruit</h1> 
+        
+    </section>    
+        
+    </header>
+    <nav>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul id="main-nav">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="order.html"> Order Options</a></li>
+            <li> <a href="about.html"> About us</a></li>
+            
+        </ul>
+    </nav>
+
+    <section class ="top">
+        <source srcset="./image/Fruit1.webp" media="(max-width:400px)">
+        <source srcset="./image/Fruit1.webp" media="(max-width: 960px)">
+        <img alt="Title page" src="image/Fruit1.webp">
+            <div class='button-box'>
+                <h2>Make your own fruit drink mix.</h2>
+                <a class='book' href="join.html">Call To Action</a>
+            </div>
+    </section>
+
+<main>
+
+    <div class = "info">
+        <section class="infomsg">
+            <h2>Newport Beach, California</h2>
+            <p>Newport Beach is a coastal city situated in Orange County, Southern California. It is known for its harbor, sandy beaches, and upscale waterfront communities.
+                Newport Beach combines coastal elegance with a vibrant seaside lifestyle, making it a sought-after destination for those seeking luxury, 
+                outdoor activities, and a relaxed atmosphere by the sea.
+                Newport Beach boasts several pristine beaches, including Newport Municipal Beach and Corona del Mar State Beach. These beaches are popular for sunbathing, surfing, and beach volleyball.</p>
+        </section>
+        <img class="california" src="image/Newport Beach.webp" alt="Newport Beach"height="300" width="500">
+        
+    </div>
+        <div class="description">
+        <img class="Fruit-juce" src="image/fruit4.webp" alt="mixed Fruit" height="300" >
+        <section class="msg">
+            <h2>Just Gotta Make it Your Own!</h2>
+            <p>Create your Crave
+                Customize your order with any of our gotta get it your way options. </p>
+            <a class='join' href="rivers.html">Join Us</a>
+        </section>
+    </div>
+
+    <section id="weather" class="index-section">
+        <section id="current-weather">
+          <p>Today</p>
+          <img src="" alt="Weather Icon" id="weather-icon" />
+          <p id="w-description">Description</p>
+          <p>Temperature: <span id="temp-span"></span></p>
+          <p>Humidity: <span id="humid-span"></span></p>
+        </section>
+        <h2>Forecast for the next 3 Days @9:00 AM</h2>
+        <section id="forecastSection"></section>
+      </section>
+</main>
+
+<footer>
+    <hr>
+    <section class="footer-contant">
+    <div class="footer-logo">
+        <img src="image/fruitlogo.webp" alt="Logo" height="50" width="100">
+    </div>
+    <div class ="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="image/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="image/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="image/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</section>
+    <div class="footer-base">
+        <p>&copy;<span id="currentyear"></span>
+            <p> Rachana Kumbhakar Final Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
+    </div>        
+</footer>
+</body>
+</html>

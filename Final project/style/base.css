@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(163, 200, 89);
+}
+.logo{
+    display: flex;
+}
+.logo img {
+   border-radius:60%;
+   margin: 10px;
+   display: block;
+      
+}
+
+.footer-logo img{
+    border-radius:50%;
+   margin: 10px;
+   display: block;
+   margin-left: 80%;
+}
+.logo h1{
+   
+   padding-left: 30%;
+    color: black;
+
+}
+/* navigation */
+.menu-hide, .menu-show {
+    display: none;
+    background-color: lightblue;
+    border: 1px solid rgb(163, 200, 89);
+    margin: .5rem 0 0 .5rem;
+    border-radius: 5px;
+}
+.menu-hide.showing, .menu-show.showing{
+    display: block;
+}
+#main-nav{
+    display: none;
+   }
+#main-nav.showing{
+    display: flex;
+    gap: 10px;
+    flex-direction:column;
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding-inline-start: 0px; */
+    flex-direction:row;
+}
+nav a:hover {
+	border: 1px solid whitesmoke;
+    color: beige;
+}
+
+nav ul li{
+    list-style-type: none;
+    /* display: block; */
+    width: 20%;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: rgb(163, 200, 89);
+    color: black;
+    text-align: center;
+    /* padding: 1rem; */
+    font-size: 1.2rem;
+}
+
+/* hero image */
+.top{
+    position: relative;
+}
+.top img{
+    height: 40vw;
+    width: 90vw;
+   
+}
+/* call to action */
+.button-box{
+    text-align: center;
+    font-size: 18px;
+    align-self: center;
+    position:absolute;
+    top: 70%;
+    left: 650px;
+    transform: translate(-50%, -50%);
+}
+.button-box h2{
+    color: black;
+    background-color: rgb(224, 87, 87);
+}
+.book{
+    color: black;
+    background-color: rgb(224, 87, 87);
+    
+}
+
+/* main? */
+/* .description{
+    display: flex;
+    grid-template-columns: 1fr 2f;}
+
+.description img{
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 10px solid black;
+}
+.description .msg{
+    margin-top: 50px;
+margin-left: 40px;
+}
+.info{
+    display: flex;
+}
+.info img{
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 10px solid black;
+} 
+.info .infomsg{
+    margin-left: 40px;
+}
+
+
+#forecastSection{
+    display: flex;
+    justify-content: space-between;
+}  */
