@@ -12,13 +12,20 @@
     <meta property="og:description" content="WDD 230 - Web Frontend Development">
     <meta property="og:image" content="https://github.com/writerachana/wdd230">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="icon" type="image/x-icon" href="image/indian_chamber_of_commerce.ico">
+    <link rel="icon" type="image/x-icon" href="image/fruit3.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="style/base.css">
     <link rel ="stylesheet" href="style/large.css">
 
     <script src="script/hamburger.js" defer></script>
     <script src="script/weather.js" defer></script>
     <script src="script/forecast.js" defer></script>
+    <script src="script/modifi.js" defer></script>
 </head>
 <body>
     <header>
@@ -59,18 +66,40 @@
                 outdoor activities, and a relaxed atmosphere by the sea.
                 Newport Beach boasts several pristine beaches, including Newport Municipal Beach and Corona del Mar State Beach. These beaches are popular for sunbathing, surfing, and beach volleyball.</p>
         </section>
-        <img class="california" src="image/Newport Beach.webp" alt="Newport Beach"height="300" width="500">
+        <img class="california" src="image/Newport Beach.webp" alt="Newport Beach"height="300" width="450">
         
     </div>
         <div class="description">
-        <img class="Fruit-juce" src="image/fruit4.webp" alt="mixed Fruit" height="300" >
+        <img class="Fruit-juce" src="image/fruit4.webp" alt="mixed Fruit" height="300" width="450">
         <section class="msg">
             <h2>Just Gotta Make it Your Own!</h2>
             <p>Create your Crave
                 Customize your order with any of our gotta get it your way options. </p>
-            <a class='join' href="rivers.html">Join Us</a>
+            <a class='join' href="order.html">Join Us</a>
+            <section id="home-orders">
+                <h3>Orders Made:</h3>
+                <h3 id="num-orders">0</h3>
+              </section>
         </section>
+        
     </div>
+    <div class="more">
+        <section class="first">
+        <img class="card-img" src="image/fruit2.webp"  alt="first fruit" >
+       
+        <h2>Welcame to the shop</h2>
+    </section>
+    <section class="second">
+        <img class="card-img" src="image/fruit3.webp" alt="second fruit">
+        
+        <h2>Fruit Flaver</h2>
+    </section>
+    <section class="third">
+        <img class="card-img" src="image/fruit6.webp" alt="third fruit" >
+        
+        <h2>Enjoy </h2>
+    </section>
+</div>
 
     <section id="weather" class="index-section">
         <section id="current-weather">
@@ -88,22 +117,28 @@
 <footer>
     <hr>
     <section class="footer-contant">
+        
     <div class="footer-logo">
+        
         <img src="image/fruitlogo.webp" alt="Logo" height="50" width="100">
+        <p>1600 Newport Center Drive, Suite 120, Newport Beach, California 92660</p>
     </div>
     <div class ="social">
         <a href="https://facebook.com" target="_blank">
-            <img src="image/facebook.png" alt="fb icon">
+            <img src="image/facebook.webp" alt="fb icon">
         </a>
         <a href="https://twitter.com" target="_blank">
-            <img src="image/twitter.png" alt="twitter icon">
+            <img src="image/twitter.webp" alt="twitter icon">
         </a>
         <a href="https://instagram.com" target="_blank">
-            <img src="image/instagram.png" alt="instagram icon">
+            <img src="image/instagram.webp" alt="instagram icon">
         </a>
     </div>
 </section>
     <div class="footer-base">
+        <p>Resources:</p>
+        <p><a href="www.fruityvice.com">www.fruityvice.com</a></p>
+        <p><a href="openweathermap.org">openweathermap.org</a></p>
         <p>&copy;<span id="currentyear"></span>
             <p> Rachana Kumbhakar Final Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
     </div>        

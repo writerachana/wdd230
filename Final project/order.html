@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bountiful Foods </title>
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Rachana Kumbhakar">
+    <meta property="og:url" content="https://github.com/writerachana/wdd230">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDD 230">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://github.com/writerachana/wdd230">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" type="image/x-icon" href="image/fruit3.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="style/base.css">
+    <link rel ="stylesheet" href="style/large.css">
+
+    <script src="script/hamburger.js" defer></script>
+    <script src="script/weather.js" defer></script>
+    <script src="script/forecast.js" defer></script>
+    <script src="script/modifi.js" defer></script>
+    <script src="script/fruitchose.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class="logo">
+        <p><img src="image/fruitlogo.webp" alt="fruit juce" height="70" width="100"></p>
+        <h1>Hawaiian Fruit</h1> 
+        
+    </section>    
+        
+    </header>
+    <nav>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul id="main-nav">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="order.html"> Order Options</a></li>
+            <li> <a href="about.html"> About us</a></li>
+            
+        </ul>
+    </nav>
+    <main id="order-main">
+        <section class="order-sec">
+         
+          <picture>
+            
+            <img src="image/order.jpg" alt="smoothies" id="order-img" height="500">
+          </picture>
+        </section>
+        <section class="order-sec">
+          <h2>Create Your Order:</h2>
+          <!-- a form that allows the user to order a specialty drink. -->
+          <form method="get" action="confirm.html" id="order-form">
+            <fieldset id="order-fieldset">
+              <!-- The form requires the following items: 
+              first name, email and phone number -->
+              <label class="order-field"
+                >First Name:                              
+                <input id="firstname" name="firstname" type="text" required
+              /></label>
+              <label class="order-field"
+                >Email:                                       
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                  autocomplete="email"
+              /></label>
+              <label class="order-field"
+                >Phone Number:                       
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  required
+                  autocomplete="tel"
+              /></label>
+              <!-- three (3) select inputs that are populated with all the available fruit to put into a drink.(THREE DROPDOWNS, SAME LIST IN EACH)
+                  Available fruit options must only come from this web service: https://www.fruityvice.com/ Links
+                  to an external site. for full credit consideration. 
+                  If desired you can download the JSON file from https://www.fruityvice.com/ Links to an external
+                  site. and use that locally in your site. -->
+              <label class="order-field"
+                >Fruit (Choice 1):                            
+                <select id="choice1" name="choice1" class="choices">
+                  <option value="" disabled selected>(select an option)</option>
+                </select></label
+              >
+              <label class="order-field"
+                >Fruit (Choice 2):                            
+                <select id="choice2" name="choice2" class="choices">
+                  <option value="" disabled selected>(select an option)</option>
+                </select></label
+              >
+              <label class="order-field"
+                >Fruit (Choice 3):                            
+                <select id="choice3" name="choice3" class="choices">
+                  <option value="" disabled selected>(select an option)</option>
+                </select></label
+              >
+              <!-- Also, include an area that allows them to add special instructions if needed. (TEXTBOX) -->
+              <label class="order-field" id="instrctn-grp"
+                >Special Instructions (optional):
+                <textarea id="instructions" name="instructions"></textarea>
+              </label>
+              <!-- The form submission takes you to the Order Confirmation page to show you what you ordered. -->
+              <button type="submit" id="sub-button">Get My Drink!</button>
+              <!--Mention in the form somewhere that payment is received when the drink is picked up.-->
+              <p>(payment is received when drink is picked up)</p>
+            </fieldset>
+          </form>
+        </section>
+
+    </main>
+    
+    <footer>
+        <hr>
+        <section class="footer-contant">
+            
+        <div class="footer-logo">
+            
+            <img src="image/fruitlogo.webp" alt="Logo" height="50" width="100">
+            <p>1600 Newport Center Drive, Suite 120, Newport Beach, California 92660</p>
+        </div>
+        <div class ="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="image/facebook.webp" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="image/twitter.webp" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="image/instagram.webp" alt="instagram icon">
+            </a>
+        </div>
+    </section>
+        <div class="footer-base">
+            <p>Resources:</p>
+            <p><a href="www.fruityvice.com">www.fruityvice.com</a></p>
+            <p><a href="openweathermap.org">openweathermap.org</a></p>
+            <p>&copy;<span id="currentyear"></span>
+                <p> Rachana Kumbhakar Final Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
+        </div>        
+    </footer>
+    </body>
+    </html>

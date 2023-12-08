@@ -1,4 +1,5 @@
 @media screen and (min-width: 70rem){
+    
     #main-nav {
 		display: flex;
         justify-content: space-evenly;
@@ -24,7 +25,7 @@
 .description img{
     margin-top: 20px;
     margin-left: 20px;
-    border: 10px solid black;
+    border: 5px solid black;
 }
 .description .msg{
     margin-top: 50px;
@@ -36,7 +37,7 @@ margin-left: 40px;
 .info img{
     margin-left: 20px;
     margin-right: 10px;
-    border: 10px solid black;
+    border: 5px solid black;
 } 
 .info .infomsg{
     margin-left: 40px;
@@ -49,3 +50,34 @@ margin-left: 40px;
 } 
 
 }
+.more{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.first  img{
+    width: 70%;
+   
+    
+    
+    border: 5px solid black;
+}
+.second img{
+    width: 70%;
+    border: 5px solid black;
+}
+.third img{
+    width: 70%;
+    border: 5px solid black;
+}
+.first h2{
+    text-align: center;
+}
+.second h2{
+    text-align: center;
+}
+.third h2{
+    text-align: center;
+}
+

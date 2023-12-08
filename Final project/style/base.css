@@ -1,5 +1,9 @@
+
+
 body{
-    background-color: rgb(163, 200, 89);
+    margin: auto;
+    font-family: 'Young Serif', serif;
+    background-color: rgb(225, 236, 205);
 }
 .logo{
     display: flex;
@@ -11,11 +15,20 @@ body{
       
 }
 
+/* footer */
+.footer-logo{
+    display: flex;
+}
+.footer-logo p{
+    text-align: center;
+    margin-left: 10px;
+}
 .footer-logo img{
     border-radius:50%;
-   margin: 10px;
-   display: block;
-   margin-left: 80%;
+   margin-left: 10px;
+}
+.footer-base{
+    text-align: center;
 }
 .logo h1{
    
@@ -23,11 +36,14 @@ body{
     color: black;
 
 }
+.social{
+    margin-left: 10px;
+}
 /* navigation */
 .menu-hide, .menu-show {
     display: none;
-    background-color: lightblue;
-    border: 1px solid rgb(163, 200, 89);
+    background-color: rgb(210, 230, 173);
+    border: 1px solid rgb(202, 218, 170);
     margin: .5rem 0 0 .5rem;
     border-radius: 5px;
 }
@@ -61,7 +77,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     display: block;
-    background-color: rgb(163, 200, 89);
+    background-color: rgb(210, 230, 173);
     color: black;
     text-align: center;
     /* padding: 1rem; */
@@ -83,8 +99,8 @@ nav ul li a{
     font-size: 18px;
     align-self: center;
     position:absolute;
-    top: 70%;
-    left: 650px;
+    top: 60%;
+    left: 250px;
     transform: translate(-50%, -50%);
 }
 .button-box h2{
@@ -98,33 +114,107 @@ nav ul li a{
 }
 
 /* main? */
-/* .description{
-    display: flex;
-    grid-template-columns: 1fr 2f;}
 
-.description img{
-    margin-top: 20px;
-    margin-left: 20px;
-    border: 10px solid black;
-}
-.description .msg{
-    margin-top: 50px;
-margin-left: 40px;
-}
-.info{
-    display: flex;
-}
+
+
+
 .info img{
     margin-left: 20px;
     margin-right: 10px;
-    border: 10px solid black;
+    border: 5px solid black;
 } 
 .info .infomsg{
     margin-left: 40px;
 }
-
-
+.description img{
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 5px solid black;
+}
+.description .msg{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.description .msg a{
+ text-align: center;
+}
+/* wather */
 #forecastSection{
     display: flex;
     justify-content: space-between;
-}  */
+    background-color: rgb(210, 230, 173);
+} 
+#current-weather{
+    text-align: center;
+    background-color: rgb(210, 230, 173);
+}
+
+/* ORDER PAGE */
+#order-main {
+    display: grid;
+    grid-template: 200px auto / 1fr;
+  }
+  
+  .order-sec {
+    background-color: var(--light);
+    overflow: hidden;
+  }
+  
+  .order-sec:nth-child(1) {
+    background-color: var(--shadow-orange);
+  }
+  
+  .order-sec:nth-child(2) {
+    margin: 1rem;
+  }
+  
+  .order-sec h2 {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #order-fieldset {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border: none;
+  }
+  
+  .order-field {
+    display: block;
+    padding: 1rem;
+  }
+  
+  .order-field input {
+    text-align: right;
+  }
+  
+  #instrctn-grp {
+    display: grid;
+  }
+  
+  #instructions {
+    display: block;
+    justify-self: center;
+    width: 350px;
+    height: 75px;
+  }
+  
+  #sub-button {
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: var(--teal);
+    border: 1px solid var(--teal);
+    font-family: "all-round-gothic", serif;
+    font-size: large;
+    color: var(--light);
+  }
+  
+  #order-fieldset p {
+    margin-top: -1.5rem;
+    padding: 1rem;
+  }
+  
+  #order-img {
+    width: 100%;
+  }
