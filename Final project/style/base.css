@@ -1,6 +1,7 @@
 
 
 body{
+    max-width: 1200px;
     margin: auto;
     font-family: 'Young Serif', serif;
     background-color: rgb(225, 236, 205);
@@ -171,6 +172,7 @@ nav ul li a{
 /* wather */
 #forecastSection{
     display: flex;
+    padding: 15px;
     justify-content: space-between;
     background-color: rgb(210, 230, 173);
 } 
@@ -181,6 +183,7 @@ nav ul li a{
 
 /* ORDER PAGE */
 #order-main {
+    
     display: grid;
     grid-template: 200px auto / 1fr;
    
