@@ -49,7 +49,7 @@ margin-left: 40px;
     justify-content: space-between;
 } 
 
-}
+
 .more{
     display: flex;
     margin-left: 20px;
@@ -80,4 +80,22 @@ margin-left: 40px;
 .third h2{
     text-align: center;
 }
+.index-section h2{
+    text-align: center;
+}
+/* footer */
+.social{
+    margin-top: 30px;
+}
+.footer-logo p{
+    margin-left: 20%;
+}
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
 
+/* order */
+
+}
