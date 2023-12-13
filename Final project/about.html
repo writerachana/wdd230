@@ -3,9 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Bountiful Foods </title>
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Rachana Kumbhakar">
+    <meta property="og:url" content="https://github.com/writerachana/wdd230">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDD 230">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://github.com/writerachana/wdd230">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" type="image/x-icon" href="image/fruit3.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="style/base.css">
+    <link rel ="stylesheet" href="style/large.css">
+    <link rel ="stylesheet" href="style/medium.css">
+    <script src="script/hamburger.js" defer></script>
+    <script src="script/weather.js" defer></script>
+    <script src="script/forecast.js" defer></script>
+    <script src="script/modifi.js" defer></script>
+    <script src="script/fruitchose.js" defer></script>
 </head>
 <body>
+    <header>
+        <section class="logo">
+        <p><img src="image/fruitlogo.webp" alt="fruit juce" height="70" width="100"></p>
+        <h1>Bountiful Fruit-juice</h1> 
+        
+    </section>    
+        
+    </header>
+    <nav>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul id="main-nav">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="order.html"> Order Options</a></li>
+            <li> <a href="about.html"> About us</a></li>
+            
+        </ul>
+    </nav>
+
+    <main class="second-page">
+        <div class="food">
+            <img class="hero-3" src="hero-3.jpeg" alt="Eat and play">
+            <div class="container">
+                <img class= "container_img" src="01_1-2.jpeg" alt="Notebook" style="width:100%;">
+                <div class="content">
+                    <h1 >Better dishes</h1>
+                    <p class="food-msg">Make better days:
+                    Meal is "to improve people".
+                    The joy of surrounding your favorite people and your favorite dishes will make your tomorrow even more wonderful.
+                    TOKYO is a place where gastronomy is rare in the world. The Specialty Restaurants Hall "THE RESTAURANT" is more than just a place to satisfy your hunger. I want you to be on the table that surrounds you with your favorite people, which is an extraordinary experience in your daily life, an experience you meet for the first time, and a journey. A dish that creates encounters, encourages conversation, and gives vitality to tomorrow. Please enjoy such a special Food Experience.
+                    How to enjoy and frequently asked questions.</p>
+                    <button class="btn info">Explore More about Food</button>
+                </div>
+            </div>
+        </div>
+    <div class ="yoga">
+        <img class="hero-2" src="hero_2.jpeg" alt="Eat and play">
+        <div class="container2">
+            <img class= "container2_img" src="hiko.jpeg" alt="Notebook" style="width:100%;">
+            <div class="content2">
+            <h1>Feel at your best</h1>
+            <h2>Making the most of your day</h2>
+         <p class="yoga-msg"> The concept of "well-being" has become an established part of our lifestyle. 
+            Simply put, it aims to help us spend each day in the best possible a good mental and physical health.
+            We believe that making the most of each day is the most important thing in work but also in life.
+           EAT PLAY WORKS is a place where you can make the most of every day!</p>
+         <button class="btn info">Explore More about Food</button>
+        </div>
+    </div>
+
+         </div>
+    <div class ="lag">
+        <img class="hero-1" src="hero_1.jpeg" alt="Eat and play">
+        <div class="container3">
+            <img class= "container3_img" src="tokyo-classic-camp.jpeg" alt="Notebook" style="width:100%;">
+            <div class="content3">
+        <h1>MEMBER'S LOUNGE</h1>
+        <p class="lag-msg">The third and fourth floors are the Member's Lounge, where you will find everything 
+         you need to actively enjoy every aspect of work and life. You find a sofa where you can 
+          sink in to your reading, a quiet place to immerse yourself in meditation, a wide open terrace to spend
+           an afternoon with your dog or an evening with your friends. What more is there to want?
+           </p>
+          <button class="btn info">Explore More about Food</button>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    </main>
+
+
+    <footer>
+        <hr>
+        <section class="footer-contant">
+            
+        <div class="footer-logo">
+            <img src="image/fruitlogo.webp" alt="Logo" height="50" width="100">
+        </div>
+        <div class="address">
+            <p>1600 Newport Center Drive, Suite 120, Newport Beach, California 92660</p>
+        </div>
+        <div class ="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="image/facebook.webp" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="image/twitter.webp" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="image/instagram.webp" alt="instagram icon">
+            </a>
+        </div>
+        </section>
+        <div class="footer-base">
+            <p>Resources:</p>
+            <p><a href="www.fruityvice.com">www.fruityvice.com</a></p>
+            <p><a href="openweathermap.org">openweathermap.org</a></p>
+        </div>
+        <div class="modifi">
+        <p>&copy;<span id="currentyear"></span>
+        <p> Rachana Kumbhakar Final Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
+        </div>    
+    </footer>
     
 </body>
 </html>
