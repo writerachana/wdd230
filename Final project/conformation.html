@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bountiful Foods </title>
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Rachana Kumbhakar">
+    <meta property="og:url" content="https://github.com/writerachana/wdd230">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="WDD 230">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://github.com/writerachana/wdd230">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" type="image/x-icon" href="image/fruit3.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="style/base.css">
+    <link rel ="stylesheet" href="style/large.css">
+    <link rel ="stylesheet" href="style/medium.css">
+    <script src="script/hamburger.js" defer></script>
+    <script src="script/weather.js" defer></script>
+    <script src="script/forecast.js" defer></script>
+    <script src="script/modifi.js" defer></script>
+    <script src="script/fruitchose.js" defer></script>
+    <script src="script/orderconformation.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class="logo">
+        <p><img src="image/fruitlogo.webp" alt="fruit juce" height="70" width="100"></p>
+        <h1>Hawaiian Fruit</h1> 
+        
+    </section>    
+        
+    </header>
+    <nav>
+        <button class="menu-hide">X</button><button class="menu-show showing">&equiv;</button>
+        <ul id="main-nav">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="order.html"> Order Options</a></li>
+            <li> <a href="about.html"> About us</a></li>
+            
+        </ul>
+    </nav>
+    <main class="confirmation-main">
+        <!-- Thank the user for their order -->
+        <h1 id="confirmationName"> name</h1>
+        <img src="image/order.webp" alt="smoothies" id="order-img" height="200">
+
+            <!-- Give the user an estimate for when they can pick up their drink. -->
+            <p class="confirmation-info">Your order will be ready for pickup in 20 min</p>
+            <!-- Give the user a way to contact you if there is a problem. -->
+            <p class="confirmation-info">For any issues, questions, or concerns Contact us at: 1 (800) 123 4321</p>
+
+            <!-- Include a call to action for the user to leave a review on social media. -->
+            <p class="confirmation-info">Tag us @BountifulFoods on facebook, instagram, or X for a chance to win discounts and prizes!</p>
+
+        <h2 id="details-heading">Order Details:</h2>
+
+        <div class="confirmation-details">
+
+            <h2 id="confirmationDetailsName">name</h2>
+
+            <p id="confirmationFruits"></p>
+
+            <p id="confirmationEmail"></p>
+
+            <p id="confirmationPhone"></p>
+
+            <p id="confirmationInstructions"></p>
+
+            <h3>Nutrition Totals</h3>
+            <p id="totalCarbs"></p>
+            <p id="totalProtein"></p>
+            <p id="totalFat"></p>
+            <p id="totalSugar"></p>
+            <p id="totalCalories"></p>
+        </div>
+
+    </main>
+    <footer>
+        <hr>
+        <section class="footer-contant">
+            
+        <div class="footer-logo">
+            <img src="image/fruitlogo.webp" alt="Logo" height="50" width="100">
+        </div>
+        <div class="address">
+            <p>1600 Newport Center Drive, Suite 120, Newport Beach, California 92660</p>
+        </div>
+        <div class ="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="image/facebook.webp" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="image/twitter.webp" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="image/instagram.webp" alt="instagram icon">
+            </a>
+        </div>
+    </section>
+        <div class="footer-base">
+            <p>Resources:</p>
+            <p><a href="www.fruityvice.com">www.fruityvice.com</a></p>
+            <p><a href="openweathermap.org">openweathermap.org</a></p>
+        </div>
+        <div class="modifi">
+        <p>&copy;<span id="currentyear"></span>
+        <p> Rachana Kumbhakar Final Project WDD 230 | Last Modified: <span id="lastmodified"></span></p>
+        </div>    
+    </footer>
+      </body>
+      </html>

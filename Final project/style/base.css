@@ -197,8 +197,66 @@ nav ul li a{
     width: 100%;
     height: 100%;
   }
+  .order-sec{
+    align-items: center;
+    text-align: center;
+  }
+  #orderForm {
+    
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    max-width: min-content;
+    display: grid;
+    justify-content: center;
+    border: none;
+    margin-left: 30%;
+    
+}
+
+#orderForm input {
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+#selectOption1 {
+   
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+#selectOption2 {
   
-  .order-sec:nth-child(1) {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+#selectOption3 {
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+#specialInstructions {
+    max-width: 300px;
+}
+
+#submit-order {
+    
+    background-color: green;
+    border-style: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 100%;
+}
+  
+  /* .order-sec:nth-child(1) {
     background-color: black;
   }
   
@@ -236,9 +294,9 @@ nav ul li a{
     justify-self: center;
     width: 350px;
     height: 75px;
-  }
+  } */
   
-  #sub-button {
+  /* #sub-button {
     margin: 1rem;
     padding: 0.5rem;
     
@@ -246,13 +304,30 @@ nav ul li a{
     font-family: "all-round-gothic", serif;
     font-size: large;
     
-  }
+  } */
   
   #order-fieldset p {
     margin-top: -1.5rem;
     padding: 1rem;
   }
   
+  /* comformation  */
+  .confirmation-main img{
+    width: 96%;
+    margin-left: 10px;
+    border: 2px solid black;
+    
+  }
+  #confirmationName{
+    font-style: italic;
+    text-align: center;
+    background-color:  rgb(210, 230, 173);
+  }
+  .confirmation-info{
+    font-style: initial;
+    text-align: center;
+    gap: 10px;
+  }
   
   
   
